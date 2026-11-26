@@ -1,0 +1,25 @@
+{
+    "name": "commisoft/filament-comms",
+    "description": "Reusable Filament v4 Control Panel emailing, campaigns, digests, and RFC 8058 unsubscribe package for Commisoft platforms.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commisoft\\FilamentComms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Commisoft\\FilamentComms\\FilamentCommsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
